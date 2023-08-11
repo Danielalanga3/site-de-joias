@@ -1,0 +1,192 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+ 			*{
+				text-decoration: none;
+				margin: 0;
+				padding: 0;
+			}
+			body{
+				background-color:black;
+			}
+			#estilo_titulo{
+				color:#daa520;
+			}
+			#estilo_cabecalho_titulo{
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+			}
+			#estilo_links_nav{
+				font-size: 26px;
+				width: 150px;
+				text-align: center;
+				color: #C0C0C0;
+			}
+			form{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				gap: 25px;
+			}
+			#campos_nome{
+				width: 600px;
+				padding: 40px;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				gap: 20px;
+				border-radius: 10px;
+				color: #C0C0C0;
+			}
+			#caixa1{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				gap: 20px;
+			}
+			#caixa2{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				gap: 20px;
+			}
+			#opcao_joias{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				gap: 10px;
+			}
+			#dados_acesso{
+				width: 300px;
+				padding: 40px;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				gap: 20px;
+				border-radius: 10px;
+			}
+			#escolha_sua_joia{
+				display: flex;
+				flex-direction: row;
+				gap: 20px;
+			}
+			nav{
+				display: flex;
+				justify-content: space-around;
+				width: 600px;
+			}
+			header{
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				width: 100%;
+				height: 90px;	
+			}
+			#tamanho_logo{
+				width: 32px;
+				height: 32px;
+			}
+			#caixa_logo{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				width: 400px;
+				gap: 20px;
+			}
+			#sacola{
+				width: 50px;
+				height: 50px;
+				padding-right: 25px;
+			}
+			#estilo_cadastro_pedido{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				width: 425px;
+			}
+			#loja{
+				display: flex;
+				flex-direction: column;
+
+			}
+			#texto1{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				color:  #C0C0C0;
+				text-align: left;
+			}
+			#joias4{
+				display: flex;
+				width: 300px;
+				height: 300px;
+				flex-direction: column;
+				justify-content: space-around;
+			}
+			#lista{
+
+
+
+			}
+			footer{
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+				align-items: flex-start;
+				text-align: left;
+				font-size: 25px;
+				width: 100%;
+				height: 250px;
+				padding-top: 50px;
+				border-top: 1px solid #C0C0C0;
+			}
+			#estilo_links_rodape{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				color: #C0C0C0;
+				font-size: 22px;
+				gap: 10px;
+			}
+			#rodape1{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				gap: 15px;
+			}
+			#rodape2{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				gap: 15px;
+			}
+			#rodape3{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				gap: 15px;
+				width: 400px;
+			}
+			#rodape4{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				gap: 15px;
+			}
+			#instalogo{
+				display: flex;
+				align-self: center;
+				align-items: center;
+			}
+			#main_cadastro{
+				padding: 3% 20%;
+				color: #C0C0C0;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				gap: 25px;
+			}

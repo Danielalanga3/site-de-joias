@@ -1,0 +1,112 @@
+ <!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+    	<meta charset="UTF-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+    	<title>Jóias&Diamantes</title>
+		<link rel="shortcut icon" href="imagens/favicon-32x32.png" type ="image/x-icon"/>
+	</head>
+	<body>
+		<header>
+			<div id="caixa_logo">
+				<a href="index.html">
+					<div id="tamanho_logo">
+						<img src="imagens/favicon-32x32.png" width="100%" height="100%">
+					</div>
+				</a>
+				<div>
+					<h1 id="estilo_titulo">Jóias & Diamantes</h1>
+				</div>
+			</div>
+			<nav>
+				<a id="estilo_links_nav" href="link_aneis.html">Anéis</a>
+				<a id="estilo_links_nav" href="link_brincos.html">Brincos</a>
+				<a id="estilo_links_nav" href="link_colares.html">Colares</a>
+				<a id="estilo_links_nav" href="link_pulseiras.html">Pulseiras</a>
+				<a id="estilo_links_nav" href="link_colecoes.html">Coleções</a>
+			</nav>
+			<div id="estilo_cadastro_pedido">
+				<a id="estilo_links_nav" href="cadastro.html">Cadastro</a>
+				<a id="estilo_links_nav" href="login.html">Login</a>
+				<a id="estilo_links_nav" href="pedido.html">Pedidos</a>
+				<div id="sacola">
+					<a href="https://www.instagram.com"><img src="imagens/sacola_logo.png" width="100%" height="100%"></a>
+				</div>
+			</div>
+		</header>
+        <main id="main_cadastro">
+			<h2> FAÇA SEU CADASTRO AQUI:</h2>
+            <form action ="cadastro.php">
+                <fieldset id="campos_nome">
+					<legend> INFORME SEUS DADOS</legend>
+					<div id="caixa1">
+						<label for="nome">NOME:</label>
+						<input type="text" id="nome" name="nome" required>
+						<label for="sobrenome">SOBRENOME:</label>
+						<input type="text" id="sobrenome" name="sobrenome" required>
+						<label for="data_nasc">Data de Nascimento:</label>
+						<input type="date" id="date_nasc" name="date_nasc" required>
+						<label for="telefone">Telefone:</label>
+						<input type="number" id="telefone" name="telefone" required>
+					</div>
+					<div id="caixa2">
+						<label for="endereco">Endereço:</label>
+						<input type="text" id="endereco" name="endereco" required>
+						<label for="estado"> Estado:</label>
+						<select name="estado" id="estado">
+							<option value="espirito_santo">ES</option>
+							<option value="rio_de_janeiro">RJ</option>
+							<option value="sao_paulo">SP</option>
+						</select>
+						<div id="opcao_joias">
+							<h3>Sua opção de Jóias:</h3>
+							<div id="escolha_sua_joia">
+								<input type="radio" name="ouro" id="ouro">
+								<label for="ouro">OURO</label>
+								<input type="radio" name="prata" id="prata">
+								<label for="prata">PRATA</label>
+							</div>
+						</div>
+						<label for="satisfacao">Nivel de Satisfação:</label>
+						<input type="range" id="satisfacao" name="satisfacao"min="0" max="10" step="2">
+					</div>	
+				</fieldset>
+				<fieldset id="dados_acesso">
+					<legend> DADOS DE ACESSO</legend>
+					<label for=" email"> E-mail:</label>
+					<input type="email" id="email" name="email" required>
+					<label for="senha">Senha:</label>
+					<input type="password" id="senha" name="senha" required>
+					<input type="reset" value="LIMPAR"></input>
+                    <input type="submit" value="ENVIAR"></input>
+				</fieldset>
+            </form>
+        </main>
+        <footer>
+            <div id="rodape1">
+                <a id="estilo_links_rodape" href="link_quem_somos">Quem somos</a>
+                <a id="estilo_links_rodape" href="link_privacidade">Política de privacidade</a>
+                <a id="estilo_links_rodape" href="link_garantia">Garantia de satisfação</a>
+            </div>
+            <div id="rodape2">
+                <a id="estilo_links_rodape" href="link_entregas">Entregas</a>
+                <a id="estilo_links_rodape" href="link_pagamento">Pagamento</a>
+                <a id="estilo_links_rodape" href="link_trocas">Trocas e Devoluções</a>
+            </div>
+            <div id="rodape3">
+                <p id="estilo_links_rodape">Fale Conosco:</p>
+                <a id="estilo_links_rodape" href="link_email">sac@joiasdiamantes.com.br</a>
+                <p id="estilo_links_rodape">08007595623</p>
+                <p id="estilo_links_rodape">Horário de Atendimento: Segunda a sexta das 9:00 às 17:00 horas (exceto feriados).</p>
+            </div>
+            <div id="rodape4">
+                <p id="estilo_links_rodape">Acesse o link do nosso Instagram abaixo:</p>
+                <div id="instalogo">
+                    <a id="estilo_links_rodape" href="https://www.instagram.com"><img src="imagens/instagram.png">@joias_diamantes</a>
+                </div>
+            </div>
+    </footer>
+</body>
+</html>
